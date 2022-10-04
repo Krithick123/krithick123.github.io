@@ -1,0 +1,39 @@
+.task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#taskcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bt{
+    margin-left: 20px;
+}
+h1{
+    text-align: center;
+}
+.task input{
+    /* border: none; */
+    outline-color: red;
+   
+}
+.tstyle{
+   width: 50%;
+  
+    border: 5px solid #27ae60;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+
+} 
+
+.completed{
+    opacity: 0.2;
+    border-color: orangered;
+    text-decoration: line-through;
+}
