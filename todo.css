@@ -29,6 +29,7 @@ h1{
     cursor: pointer;
     text-align: center;
     border-radius: 3px;
+    word-wrap: break-word;
 
 } 
 
